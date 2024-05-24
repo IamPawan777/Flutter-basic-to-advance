@@ -1,3 +1,4 @@
+import 'package:basics_dart/Page/form_page.dart';
 import 'package:basics_dart/Page/home_page.dart';
 import 'package:basics_dart/Page/login.dart';
 import 'package:basics_dart/utils/routes.dart';
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => LogIn(), //default
         MyRoutes.loginRoute: (context) => LogIn(),            // not static
         MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.formRoute:(context) => FormPage(),
       },
 // or.. Nagivation
       // home: HomePage(),
