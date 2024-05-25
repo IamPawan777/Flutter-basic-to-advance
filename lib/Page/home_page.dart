@@ -1,4 +1,5 @@
 import 'package:basics_dart/utils/routes.dart';
+import 'package:basics_dart/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -80,9 +81,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      drawer: Drawer(
-        backgroundColor: Colors.amber,
-      ),
+      drawer: MyNewDrawer(),
     );
   }
 }

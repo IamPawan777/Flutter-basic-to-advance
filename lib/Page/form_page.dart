@@ -12,7 +12,7 @@ class FormPage extends StatefulWidget {
 
 class _FormPageState extends State<FormPage> {
   final _formKey = GlobalKey<FormState>();
-  moveToHome(BuildContext context) {}
+  // moveToHome(BuildContext context) {}
   bool changeButton = false;
   @override
   Widget build(BuildContext context) {
