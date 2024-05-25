@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      theme: MyTheme.lightTheme(context),
+      theme: MyTheme.lightTheme(),
       // ThemeData(
       //     fontFamily: GoogleFonts.lato().fontFamily,
       //     appBarTheme: AppBarTheme(
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       //     ),
 
       // themeMode: ThemeMode.light,
-      darkTheme: MyTheme.darkTheme(context),
+      darkTheme: MyTheme.darkTheme(),
       // ThemeData(
       // brightness: Brightness.dark,
       // ),
