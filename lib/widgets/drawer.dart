@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 class MyNewDrawer extends StatelessWidget {
   const MyNewDrawer({super.key});
 
+  final imageURL =
+      'https://www.iplcricketmatch.com/wp-content/uploads/2024/02/Virat-Kohli-IPL-Stats-Salary-860x484.jpg';
+
   @override
   Widget build(BuildContext context) {
-    final imageURL =
-        'https://www.iplcricketmatch.com/wp-content/uploads/2024/02/Virat-Kohli-IPL-Stats-Salary-860x484.jpg';
     return Drawer(
+      elevation: 5,
       // backgroundColor: Colors.white,
       child: ListView(
         children: [

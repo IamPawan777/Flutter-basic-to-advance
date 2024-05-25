@@ -16,17 +16,20 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     // return widget
 
-    final double days = 30; // not change final type
-    String name = "Pawan Bisht";
-    bool isValue = false;
-    var variabl = "Monday"; // any type int, string, bool
-    const pi = 3.14;
+    // final double days = 30; // not change final type
+    // String name = "Pawan Bisht";
+    // bool isValue = false;
+    // var variabl = "Monday"; // any type int, string, bool
+    // const pi = 3.14;
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        centerTitle: true,
-        title: Text("Welcome"),
+        // backgroundColor: Colors.deepPurple,
+        // iconTheme: IconThemeData(color: Colors.red),
+        // centerTitle: true,
+        title: Text(
+          "Welcome",
+        ),
       ),
       body: Center(
         child: Column(
@@ -34,8 +37,9 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              child: Text(
-                  "This is Home page.....$days.....${name}....\n.....$isValue.....$variabl....$pi"), // +also can use
+              child: Text("mdm"
+                  // "This is Home page.....$days.....${name}....\n.....$isValue.....$variabl....$pi"
+                  ), // +also can use
             ),
             SizedBox(
               height: 30,
